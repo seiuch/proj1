@@ -1,0 +1,55 @@
+$ cd d:\react-samples
+
+$ cd gitexample2
+
+$ git init
+Initialized empty Git repository in D:/react-samples/gitexample2/.git/
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ ls
+index.html
+
+$ git branch -m main
+
+$ git add index.html
+
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+  
+$ git commit -m "version 1"
+[main (root-commit) 33a6389] version 1
+1 file changed, 62 insertions(+)
+create mode 100644 index.html
+
+"$ git remote add origin https://github.com/leungwilson20/proj2.github.io
+
+$ git push -u origin main
+To https:/7github.com/leungwilson20/proj2.github.io
+
+main -> main (fetch first)
+
+$ git push -f origin main
+Enumerating objects: 3, done.
+Counting obiects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 922 bytes | 922.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/leungwilson20/proj2.github.io
+ + a0048ff...33a6389 main -> main (forced update)
+ 
+ $
